@@ -13,7 +13,7 @@
             equipamento = ?,
             problema = ?,
             data_entrada = ?,
-            status = ?,
+            status = ?
         WHERE id = ?";
     $stmt = $conexao -> prepare($sql);
     $stmt->bind_param(

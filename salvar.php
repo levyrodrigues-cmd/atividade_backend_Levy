@@ -23,7 +23,7 @@
     );
 
     if ($stmt->execute ()){
-        header("Location :index.php");
+        header("Location: index.php");
         exit;
     }else{
         echo"Erro ao cadastrar ordem de serviço";
